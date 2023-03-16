@@ -1,5 +1,5 @@
 <template>
-  <div class="flex w-full min-h-screen items-center justify-center">
+  <div class="flex flex-col w-full min-h-screen items-center justify-center">
     <div class="flex flex-col gap-4 items-center justify-center">
       <span class="text-4xl text-emerald-600 font-semibold">
         Nuxt<span class="text-orange-500">JS</span></span
@@ -29,6 +29,7 @@
         />
       </div>
     </div>
+    <Footer></Footer>
   </div>
 </template>
 
